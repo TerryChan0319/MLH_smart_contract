@@ -1,19 +1,20 @@
 {
-  "name": "smart-contract-mlh",
+  "name": "two-sum-typescript",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Two Sum problem solutions in TypeScript",
+  "main": "two_sum_solution.ts",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node two_sum_solution.ts",
+    "build": "tsc two_sum_solution.ts",
+    "test": "ts-node two_sum_solution.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": ["algorithm", "two-sum", "typescript", "leetcode"],
+  "author": "Assistant",
+  "license": "MIT",
   "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "ethers": "^5.0.0",
-    "hardhat": "^2.22.5"
-  },
-  "dependencies": {
-    "dotenv": "^16.4.5"
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
   }
 }
